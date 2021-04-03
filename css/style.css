@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 3000px;
+  background-color: #eee;
+
+}
+
+.topnav {
+  background-color: #283350;
+  width: 100%;
+  height: 50px;
+  margin-top: -9px;
+  position: sticky;
+  top: 0;
+  z-index: 6;
+
+
+}
+
+.nav ul {
+  display: flex;
+  float: right;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav li {
+  text-decoration: none;
+  margin-top: 2em;
+  margin-right: 40px;
+
+}
+
+.nav ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #ffb500;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  position: sticky;
+  color: #ffb500;
+
+}
+
+.nav li a:hover {
+  color: #f93800;
+}
+
+/* .active{
+  background-color: #f93800;
+} */
+
+
+.logo {
+  float: left;
+  font-size: 14px;
+
+}
+
+.logo h1 {
+  margin-left: 10px;
+  margin-top: 7px;
+  color: #f93800;
+}
+
+.nav {
+  width: 50%;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  background-image: url("/images/fly.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .banner img {
+  background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* width: 100%;
+  height: 600px; */
+  /* background-attachment: fixed; */
+  /* position: center center; */
+  /* filter: blur(5px);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.welcome h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 45%;
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 10px;
+  /* border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px; */
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #ffb500;
+  font-weight: bold;
+  /* border: 10px inset #fff; */
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  color: #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+.about h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+
+}
+
+.about p {
+  padding: 0 150px;
+  line-height: 1.9;
+  font-size: 18px;
+}
+
+.about:before {
+  position: absolute;
+  content: '';
+  width: 78%;
+  height: 200px;
+  top: -87px;
+  left: 0;
+  background: #fff;
+  transform: skewY(10deg);
+}
+
+.about:after {
+  position: absolute;
+  content: '';
+  width: 60%;
+  height: 125px;
+  top: -40px;
+  right: 0;
+  background: #fff;
+  transform: skewY(-10deg);
+}
+
+.about {
+  background: #fff;
+  color: #283350;
+  height: 350px;
+  padding-top: 160px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.skills {
+  width: 100%;
+  height: 450px;
+  margin-top: 5px;
+}
+
+.image-area {
+  width: 30%;
+  float: left;
+  height: 50px;
+}
+
+.image-area img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.skills {
+  width: 100%;
+  height: 400px;
+
+}
+
+.skills h1 {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  margin-left: 470px;
+  z-index: 9;
+}
+
+.image {
+  float: left;
+  height: 400px;
+  width: 40%;
+  background-color: #333;
+  box-shadow: 0 10px 6px -6px #777;
+  margin-left: 3em;
+  margin-top: 3em;
+
+}
+
+
+
+.text {
+  float: right;
+  background-color: #eee;
+  width: 50%;
+  margin-left: 10px;
+  height: 400px;
+  margin-right: 20px;
+
+}
+
+.outside {
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+.text h3 {
+  text-align: center;
+  color: #283350;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.text h3:hover {
+  transition: ease-in-out 1s;
+  color: #f93800;
+}
+
+.text ul li {
+  margin-left: 40px;
+  color: #283350;
+  font-size: 20px;
+  margin-top: 27px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+}
+
+.quotes {
+  width: 100%;
+  height: 300px;
+  background-color: #eee;
+  margin-top: 150px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.quotes h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quote-text {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.quote-text q {
+  color: #283350;
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 80px;
+
+}
+
+.quote-text p {
+  color: #f93800;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 0px;
+}
